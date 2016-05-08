@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.15" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://neyoag.github.io/index.xml">
+
+    
+
+    <title>Never Young Again</title>
+
+    <link rel="canonical" href="http://neyoag.github.io/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="theme-color" content="#2196f3">
+
+    
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+    <style amp-custom>
+ 
+html {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: "Lora", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: inherit;
+  color: #333;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #03a9f4;
+  text-decoration: none;
+  transition-duration: .2s;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+  margin: 0;
+  font-size: 1rem;
+  word-break: break-all;
+  font-weight: normal;
+  color: #000;
+}
+
+ 
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 .5rem;
+}
+
+ 
+.l-header {
+  position: relative;
+  text-align: center;
+  padding: 3rem 0;
+  margin-bottom: 4rem;
+}
+
+.l-header::before,
+.l-header::after {
+  position: absolute;
+  top: -3rem;
+  right: -3rem;
+  left: -3rem;
+  content: '';
+  display: block;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.l-header::before {
+  transform: rotate(-1deg);
+  bottom: 0;
+  z-index: -1;
+  background-color: #263238;
+}
+
+.l-header::after {
+  transform: rotate(-2deg);
+  bottom: -.5rem;
+  z-index: -2;
+  background-color: #03A9F4;
+}
+
+.l-footer {
+  font-size: .8rem;
+  padding: 1rem 0;
+}
+
+ 
+.p-error {
+  padding: 2rem 0;
+}
+
+ 
+.p-logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.p-logo a {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.p-logo a::before,
+.p-logo a::after {
+  display: inline-block;
+  content: '';
+  height: 2rem;
+}
+
+.p-logo a::before {
+  vertical-align: 0;
+}
+
+.p-logo a::after {
+  vertical-align: -1rem;
+}
+
+ 
+.p-sections a {
+  display: inline-block;
+  font-size: .7rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+ 
+.p-tags a {
+  color: #333;
+  font-size: .8rem;
+  text-decoration: underline;
+}
+
+ 
+ul.h-inline, ol.h-inline {
+  list-style: none;
+}
+
+.h-inline li {
+  display: inline-block;
+  margin: 0 .25rem;
+}
+
+ 
+article.single {
+  margin-bottom: 2rem;
+}
+
+article.li {
+  margin-bottom: 2rem;
+}
+
+article.li>a {
+  display: block;
+}
+
+article.li>a:hover {
+  text-decoration: none;
+}
+
+article .detail {
+  color: #999;
+  font-size: .7rem;
+  font-weight: 700;
+  line-height: 1rem;
+}
+
+article .title {
+  font-weight: 700;
+  word-break: break-all;
+  color: #000;
+  margin: .5rem 0;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+article.single .title {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+article .summary {
+  color: #999;
+  font-size: .8rem;
+  word-break: break-all;
+  line-height: 1rem;
+}
+
+article .body {
+  margin-bottom: 2rem;
+}
+
+article .body a {
+  text-decoration: underline;
+}
+
+article .body p {
+  line-height: 1.5rem;
+  margin: 1.5rem 0;
+  word-break: break-all;
+}
+
+article .body h1,
+article .body h2,
+article .body h3,
+article .body h4,
+article .body h5,
+article .body h6 {
+  font-weight: 700;
+}
+
+article .body h1:first-child,
+article .body h2:first-child,
+article .body h3:first-child,
+article .body h4:first-child,
+article .body h5:first-child,
+article .body h6:first-child {
+  margin-top: 0;
+}
+
+article .body h1,
+article .body h2 {
+  margin-top: 4rem;
+  padding: .5rem 0;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+article .body h3 {
+  margin-top: 1.5rem;
+}
+
+article .body h4 {
+  margin-top: 1rem;
+  text-decoration: underline;
+}
+
+article .body blockquote {
+  font-size: .8rem;
+  padding: .5rem;
+  border-left: none;
+  margin: .5rem 0;
+  background-color: #eceff1;
+}
+
+article .body blockquote p {
+  line-height: 1rem;
+  margin: 0;
+}
+
+article .body blockquote ul,
+article .body blockquote ol {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+}
+
+article .body ul,
+article .body ol {
+  padding-left: 1.5rem;
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+article .body amp-img {
+  max-width: 100%;
+  box-shadow: 0 0 0 .25rem #eceff1;
+  margin: 1rem 0;
+}
+
+article .body pre {
+  padding: .5rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 0;
+  font-size: .8rem;
+  line-height: 1rem;
+  overflow: auto;
+  background-color: #333;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+}
+
+article .body p code,
+article .body li code {
+  padding: .25rem;
+  margin: 0 .25rem;
+  font-size: .8rem;
+  white-space: nowrap;
+  line-height: 1rem;
+  background-color: #eee;
+}
+
+.page-title {
+  margin-bottom: 1rem;
+}
+
+nav.page {
+  position: relative;
+  margin-bottom: 2rem;
+  min-height: 3rem;
+}
+
+nav.page a {
+  position: absolute;
+  display: inline-block;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 3rem;
+  padding: 0 2rem;
+  box-shadow: 0 0 0 1px #eee;
+  color: #999;
+}
+
+nav.page a.next {
+  right: 0;
+}
+</style>
+
+
+  </head>
+
+  <body>
+    <amp-analytics type="googleanalytics" id="analytics1">
+      <script type="application/json">
+        {
+          "vars": {
+            "account": ""
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "pageview"
+            }
+          }
+        }
+      </script>
+    </amp-analytics>
+
+    <header class="l-header">
+
+      <div class="p-logo">
+        <a href="http://neyoag.github.io/">Never Young Again</a>
+      </div>
+
+      <ul class="h-inline p-sections">
+        
+        
+        <li><a href="http://neyoag.github.io//about">about</a></li>
+        
+        
+      </ul>
+
+    </header>
+
+    <div class="container">
+
+<div class="index">
+
+  <div class="site">
+    
+    <article class="li">
+  <a href="http://neyoag.github.io/about/test/">
+    <header>
+      <div class="detail">
+        <time class="date">Sun, May 8, 2016</time> - <span class="section">about</span>
+      </div>
+      <div class="title">test</div>
+    </header>
+
+    <div class="summary">This is test....</div>
+  </a>
+</article>
+
+    
+  </div>
+
+  
+
+
+
+</div>
+      <footer class="l-footer">
+        <p>&copy; 2016 Never Young Again</p>
+        <p>Powered by <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a>, Theme <a href="https://github.com/dim0627/hugo_theme_harb" target="_blank" rel="nofollow">Harb</a> designed by <a href="http://yet.unresolved.xyz" target="_blank" rel="nofollow">Daisuke Tsuji</a></p>
+      </footer>
+
+    </div>
+  </body>
+</html>
+
